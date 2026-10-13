@@ -275,7 +275,7 @@ export default function Home() {
             </em>
           </h1>
 
-          <p className="mb-[27px] max-w-[440px] text-lg leading-[1.85] text-[#58665e] max-[760px]:max-w-[500px] max-[760px]:text-[13px]">
+          <p className="mb-[27px] max-w-[440px] text-lg leading-[1.85] text-[#58665e] max-[760px]:max-w-[500px] max-[760px]:text-[20px]">
             We bring people together to support young people, stand alongside
             vulnerable communities, and help improve the places we call home.
           </p>
@@ -424,9 +424,6 @@ export default function Home() {
                       className="size-full object-cover transition duration-500 group-hover:scale-[1.04]"
                     />
 
-                    
-
-                    
                   </div>
 
                   <div className="flex min-h-[213px] flex-col items-start px-[19px] pt-[25px] pb-5 max-[1100px]:min-h-[185px] max-[760px]:min-h-[170px]">
@@ -434,14 +431,14 @@ export default function Home() {
                       {programme.title}
                     </h3>
 
-                    <p className="mb-5 text-[15px] leading-[1.8] text-[#58665e] max-[760px]:text-[11px]">
+                    <p className="mb-5 text-[15px] leading-[1.8] text-[#58665e] max-[760px]:text-[15px]">
                       {programme.description}
                     </p>
 
                     <a
                       href="#contact"
                       aria-label={`Enquire about ${programme.title}`}
-                      className="mt-auto inline-flex items-center gap-2 text-[12px] font-extrabold text-[#1e4938] transition-all hover:gap-3 max-[760px]:text-[10px]"
+                      className="mt-auto inline-flex items-center gap-2 text-[12px] font-extrabold text-[#1e4938] transition-all hover:gap-3 max-[760px]:text-[15px]"
                     >
                       Find out how to help <ArrowUpRight size={16} />
                     </a>
@@ -622,7 +619,7 @@ export default function Home() {
                   {option.title} 
                 </h3>
 
-                <p className="mb-[17px] min-h-[58px] text-[14px] leading-[1.8] text-[#e0e8df] max-[760px]:mb-[15px] max-[760px]:min-h-0 max-[760px]:text-[11px]">
+                <p className="mb-[17px] min-h-[58px] text-[14px] leading-[1.8] text-[#e0e8df] max-[760px]:mb-[15px] max-[760px]:min-h-0 max-[760px]:text-[15px]">
                   {option.description}
                 </p>
 
@@ -637,8 +634,10 @@ export default function Home() {
           </div>
 
           <div className="mt-[25px] flex items-center justify-center gap-[9px] text-[#e0e8df] max-[760px]:items-start max-[760px]:justify-start">
+            
+            
             <Check size={17} className="shrink-0 text-[#d6b66f]" />
-            <p className="m-0 max-w-3xl text-center text-[15px] leading-[1.7] max-[760px]:text-left max-[760px]:text-[11px]">
+            <p className="m-0 max-w-3xl text-center text-[15px] leading-[1.7] max-[760px]:text-left max-[760px]:text-[15px]">
               We welcome transparent conversations about goals, budgets,
               timelines and what can realistically be delivered.
             </p>
